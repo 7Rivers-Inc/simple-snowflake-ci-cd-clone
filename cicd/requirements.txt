@@ -1,0 +1,4 @@
+cryptography
+snowflake-connector-python
+Jinja2
+pyyaml

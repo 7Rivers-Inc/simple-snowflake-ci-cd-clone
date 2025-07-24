@@ -1,0 +1,1 @@
+CREATE OR REPLACE SCHEMA DEV_RAW.{{ schema_name }} CLONE PROD_RAW.{{ schema_name }};

@@ -1,0 +1,15 @@
+clone_ddl:
+  path: cicd/CICD_clone_scripts.sql
+  role: SYSADMIN
+
+clone_grant_ddl:
+  path: cicd/CICD_clone_grant_scripts.sql
+  role: SECURITYADMIN
+
+refined_views:
+  path: snowflake_refined/dev/example_1/generated_data/view_ddl/combined_views.sql
+  role: SNOWFLAKE_TRANSFORMATION_NONPROD
+
+reporting_views:
+  path: snowflake_reporting/dev/example_1/generated_data/view_ddl/reporting_views.sql
+  role: SNOWFLAKE_TRANSFORMATION_NONPROD
